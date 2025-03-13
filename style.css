@@ -1,0 +1,69 @@
+body{
+    max-width: 1550px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: left;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #125701;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    border-left: 7px double #125701;
+    padding: 10px;
+
+}
+
+span {
+
+    color: #125701
+}
+
+img {
+    border: 5px solid #125701;
+    border-radius: 35px;
+    width: 350px;
+}
+
+ul {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+li {
+    list-style: url('https://learn.logikaschool.com/uploads/student/2513800/67cc0fa334238.png');
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    background: #125701;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+footer p{
+    padding: 0px;
+}
